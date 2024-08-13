@@ -1,0 +1,34 @@
+/* activity.css */
+
+.activity {
+    border: 1px solid #4e8161;
+    border-radius: 1em;
+    width: 45%;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(25, 69, 140);
+    font-size: 17px;
+    background-color: #fff;
+    flex-wrap: nowrap;
+  }
+  
+  .act {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+  }
+  
+  .activity a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* @media (max-width: 576px) {
+    .activity {
+      width: 100%;
+    }
+  } */
+  

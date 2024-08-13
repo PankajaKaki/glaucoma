@@ -1,0 +1,143 @@
+/* profile.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .profile {
+    background-color: white;
+    border: 1px solid white;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 30px;
+    border-radius: 1em;
+  }
+  
+  .pdiv {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  li::marker {
+    color: rgb(25, 69, 140);
+  }
+  
+  .pdiv1 {
+    width: 30%;
+  }
+  
+  .pdiv11 {
+    border: 1px solid #4e8161;
+    border-radius: 1em;
+    padding: 20px;
+  }
+  
+  .photo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  .contact {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .pdiv2 {
+    width: 65%;
+  }
+  
+  .pdiv21 {
+    border-radius: 1em;
+    padding: 33px;
+    border: 1px solid #4e8161;
+  }
+  
+  .pdiv211 {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .pdiv212 {
+    margin-top: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .over {
+    display: flex;
+    flex-direction: column;
+    width: 20vb;
+  }
+  
+  .first {
+    color: rgb(164, 163, 163);
+  }
+  
+  .pdiv12 {
+    margin-top: 30px;
+    border: 1px solid #4e8161;
+    border-radius: 1em;
+    padding: 20px;
+    /* color: rgb(210, 146, 29); */
+  }
+  
+  .pdiv22 {
+    margin-top: 30px;
+    border: 1px solid #4e8161;
+    border-radius: 1em;
+    padding: 20px;
+  }
+  
+  .boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  @media (max-width: 576px) {
+    .profile {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-top: 10px;
+    }
+  
+    .pdiv {
+      flex-direction: column;
+    }
+  
+    .pdiv1,
+    .pdiv2 {
+      width: 100%;
+    }
+  
+    .pdiv11,
+    .pdiv12,
+    .pdiv21,
+    .pdiv22 {
+      margin-bottom: 20px;
+    }
+  
+    .pdiv211,
+    .pdiv212 {
+      flex-direction: column;
+    }
+  
+    .over {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .boxes {
+      flex-direction: column;
+    }
+
+  }
+  
